@@ -15,7 +15,7 @@ public class App
         String text1 = s.next();
         
         try {
-        	Object obj = parser.parse(new FileReader("D:\\또클립스 기본폴더\\201911283-JeongHoeGeun\\midterm.json"));
+        	Object obj = parser.parse(new FileReader("midterm.json"));
         	
         	JSONObject jsonObject =(JSONObject) obj;
         	
